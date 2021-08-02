@@ -8,6 +8,7 @@ public class empWageBuilder {
 	    int wage_per_hour;
 	    int days_worked;
 	    int hours_worked;
+	    
 	   
 	public empWageBuilder(String company, int wage_per_hour,int days_worked,int hours_worked){
 		this.company=company;
@@ -16,6 +17,7 @@ public class empWageBuilder {
 		this.hours_worked=hours_worked;
 	}
 	public void computeWage() {
+		System.out.println("Total wage by "+company);
 		int attendance,work_hours=0,wage=0,workingdays=0,workinghours=0;
 		while(workinghours<hours_worked && workingdays<days_worked)
 		{
