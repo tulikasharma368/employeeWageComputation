@@ -8,7 +8,7 @@ public class wageCondition {
 	public static final int hours_worked=100;
 	
 	public static void main(String[] args) {
-		System.out.println("Daily wage and total wage : ");
+		
 		int attendance,work_hours=0,wage=0,workingdays=0,workinghours=0;
 		while(workinghours<hours_worked && workingdays<days_worked)
 		{
