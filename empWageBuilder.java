@@ -16,8 +16,7 @@ public class empWageBuilder {
 		this.days_worked=days_worked;
 		this.hours_worked=hours_worked;
 	}
-	public void computeWage() {
-		System.out.println("Total wage by "+company);
+	public void computeWage() {		
 		int attendance,work_hours=0,wage=0,workingdays=0,workinghours=0;
 		while(workinghours<hours_worked && workingdays<days_worked)
 		{
